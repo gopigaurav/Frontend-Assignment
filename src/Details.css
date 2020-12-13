@@ -1,0 +1,221 @@
+.detail{
+    margin: auto;
+    box-shadow: -1px 4px 20px -6px rgba(0,0,0,0.75);
+    margin-top: 30px;
+    border-radius: 20px;
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+}
+.comming__soon{
+    width: 90vw;
+    height: 80vh;
+    flex: 0.8;
+    display: flex;
+    flex-direction: column;
+}
+
+.detail > .detail__left{
+    flex: 0.2;
+    background-color: #3e55c8;
+    border-radius: 20px;
+    color: #ededfa;
+}
+.detail__left > .detail__leftdetails{
+    margin-top: 100px;
+    padding: 20px;
+  
+}
+.detail__left > .detail__leftdetails > h3{
+    padding: 20px;
+    font-weight: 20 !important;
+    cursor: pointer;
+    color: rgb(218, 154, 154);
+}
+.detail__left > .detail__leftdetails > hr{
+    height: 1px;
+    border:none;
+    background-color:wheat;
+}
+hr{
+    height: 1px;
+    border-width:0;
+    background-color:rgb(228, 192, 192);
+}
+.detail__right > .detail__rightTop{
+    display: flex !important;
+    justify-content: space-between;
+    align-items: center;
+}
+.detail__right > .detail__rightTop .detail__rightTop-info > .detail__rightTop-info-logo{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.detail__rightTop-info-logo-popup{
+    width: 15vw;
+    height: 30vh;
+    z-index: 100;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: -50px;
+    box-shadow: -1px 4px 20px -6px rgba(0,0,0,0.75);
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: small;
+    align-items: center;
+}
+.Nextguy{  
+    width: 30px;
+    height: 30px;
+    margin: auto;
+    margin-left: 22px;
+    border-radius: 20px;
+    object-fit: cover;
+    margin-bottom: 10px;
+    justify-content: center;
+    padding-top: 5px;
+}
+.detail__rightTop-info-logo-popup > img{
+    width: 30px;
+    height: 30px;
+    margin: 0 10px; 
+    border-radius: 20px;
+    object-fit: cover;
+    margin-top: -10px ;
+}
+.Nextguy__name{
+    margin-top: -10px;
+}
+.signout__button{
+    margin-top: 10px;
+    overflow: hidden;
+    color: white;
+    background-color: rgb(245, 89, 89);
+    padding: 5px 15px;
+    border-radius: 20px;
+    outline: none;
+}
+
+.detail__right > .detail__rightTop .detail__rightTop-info > .detail__rightTop-info-logo> img{
+    width: 30px;
+    height: 30px;
+    margin: 0 10px; 
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.detail > .detail__right{
+    flex: 0.8;
+    padding: 20px;
+    padding-left:30px ;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.detail > .detail__right > .detail__rightTop > h3{
+    font-weight: 50 !important;
+    margin-bottom: 20px;
+}
+
+.detail > .detail__right > .detail__rightTop{
+    flex: 0.1;
+   overflow: hidden;
+}
+.detail > .detail__right > .detail__rightBottom{
+    flex: 0.9;
+    overflow: hidden;
+    display: flex;
+    margin-top: 20px ;
+}
+.detail__rightBottom > .detail__rightBottom-Left {
+    flex: 0.6;   
+    border-right: 1px solid rgb(104, 78, 78);
+}
+.detail__rightBottom > .detail__rightBottom-Right{
+    flex: 0.4;
+}
+
+.detail__rightBottom > .detail__rightBottom-Left > .detail__rightBottom-LeftTop{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px ;
+}
+.detail__rightBottom > .detail__rightBottom-Left > .detail__rightBottom-LeftTop > img{
+ border-radius: 50%;
+ height: 180px;
+ width: 180px;
+ overflow: hidden;
+ display: flex;
+ align-items: center;
+ object-fit: cover;
+ padding-top: 10px;
+}
+.align_center{
+    justify-content: center;
+    align-items: center;
+}
+span{
+}
+.detail__rightBottom-Left > hr{
+    border-width:0 !important;
+    max-width: 50%;
+    padding:0 20px ;
+    margin: auto;
+}
+.bright{
+    font-weight: bold;
+    color: rgb(255, 255, 255) !important;
+}
+.detail__rightBottom > .detail__rightBottom-Left > .detail__rightBottom-LeftTop> h3{
+    margin: 10px 0;
+}
+.detail__rightBottom > .detail__rightBottom-Left > .detail__rightBottom-LeftTop >p{
+    align-self: flex-start;
+    margin-left: 30px;
+}
+.detail__rightBottom-LeftBottom{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.detail__rightBottom-LeftBottom > h3 {
+    font-weight: 80 !important;
+    margin-bottom: 10px;
+}
+
+.detail__rightBottom-LeftBottom > p{
+    align-self: start;
+    margin-left: 30px;
+}
+.detail__rightBottom-Right {
+    margin: 10px 30px;
+}
+.detail__rightBottom-Right > h3 {
+    font-weight: 50 !important;
+    margin-bottom: 10px;
+}
+.detail__rightBottom-Right > span{
+    font-weight: 400 !important;
+}
+
+.map > img{
+    margin-top: 40px;
+    margin-left: 40px;
+    width: 80%;
+}
+.map > .coordinates{
+    display: flex;
+    margin: 20px;
+}
+
+.map > .coordinates > p{
+    margin-left: 20px;
+}
